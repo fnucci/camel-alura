@@ -91,7 +91,7 @@
   
   
   <build>
-    <finalName>projeto-camel-alura</finalName>
+    <finalName>camel-alura</finalName>
     <plugins>
 		<plugin>
 		    <groupId>org.apache.maven.plugins</groupId>
