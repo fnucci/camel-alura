@@ -17,7 +17,7 @@ public class RotaPedidos {
 				// TODO Auto-generated method stub
 				from("file:pedidos?delay=5s&noop=true")
 				.log("${exchange.pattern}")
-				.log("Camel trabalhando !!! - ${id} - ${body}")
+				.log("Teste Camel trabalhando !!! - ${id} - ${body}")
 				.to("file:saidas");
 			}
 
